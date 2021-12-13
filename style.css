@@ -7,6 +7,7 @@
     
     body {
         background-color: #FFF5E7;
+        font-family: 'Nunito', sans-serif;
     }
     
     #logo {
@@ -82,25 +83,81 @@
         display: flex;
     }
     /*navbar mobile slut*/
-    /*menu content mobile starter*/
+    /* site til mobil starter*/
     
-    .menu {
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.3rem;
         text-align: center;
-        font-size: 2rem;
+        margin-top: 20%;
+    }
+    
+    h2 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 3%;
+    }
+    
+    h3 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: -42%;
+    }
+    
+    .skill-container h4 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        margin-top: -20%;
+    }
+    
+    .skill-container p {
+        font-size: 0.9rem;
+    }
+    
+    .skill-container {
+        display: flex;
+        flex-wrap: wrap;
         margin-top: 40%;
     }
     
-    .menu li a {
-        color: #221414;
-        font-family: 'Nunito', sans-serif;
-        text-decoration: none;
-        font-weight: bold;
+    .skill-item {
+        display: flex;
     }
     
-    .menu li {
-        padding: 2rem 0 2rem 0;
+    .left {
+        text-align: start;
     }
-    /*menu content mobile slut*/
+    
+    p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        margin-right: 8%;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    
+    .draw {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3%;
+    }
+    
+    .vandmærke-quote {
+        opacity: 0.3;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 60%;
+        height: 60%;
+        transform: rotate(20deg);
+    }
+    /* site til mobil slut*/
     /*navbar til web starter*/
     
     @media screen and (min-width: 720px) {
