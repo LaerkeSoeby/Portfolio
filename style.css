@@ -221,15 +221,101 @@ h3 {
     text-align: center;
 }
 
+.rollup {
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.green-container {
+    width: 100%;
+}
+
+.green {
+    width: 4rem;
+    height: 4rem;
+    float: right;
+    margin-right: 10%;
+}
+
+.cases-circle {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+.circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #d99b62;
+    width: 100%;
+    opacity: 40%;
+    margin-top: 0;
+}
+
+.circle-text h1 {
+    font-size: 1rem;
+}
+
+.circle-text p {
+    font-size: .7rem;
+}
+
+@media screen and (min-width: 400px) {
+    .circle-text h1 {
+        font-size: 1.5rem;
+    }
+    .circle-text p {
+        font-size: .85rem;
+    }
+}
+
 
 /* site til mobil slut*/
 
 
 /*site til tablet starter*/
 
+@media screen and (min-width: 500px) {
+    .circle-text h1 {
+        font-size: 1.8rem;
+    }
+    .circle-text p {
+        font-size: 1.1rem;
+    }
+    .green {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .skill-item {
         width: 50%;
+    }
+    .rollup {
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .circle-text h1 {
+        font-size: 2.1rem;
+    }
+    .circle-text p {
+        font-size: 1.5rem;
+    }
+    .green {
+        width: 6rem;
+        height: 6rem;
     }
 }
 
