@@ -367,4 +367,32 @@ h3 {
         margin-left: 5rem;
         margin-right: 5rem;
     }
+    .skill-web {
+        display: block;
+        margin-left: 8rem;
+        margin-right: 8rem;
+    }
+    .right {
+        justify-content: start;
+        align-items: flex-start;
+        text-align: start;
+    }
+    .skill-item {
+        flex: 33.33%;
+    }
+    .skill-text h4 {
+        font-size: 1.9rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .skill-text p {
+        font-size: 1.6rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+    .skill-web img {
+        height: 9rem;
+        width: 9rem;
+        margin-left: 0;
+    }
 }
