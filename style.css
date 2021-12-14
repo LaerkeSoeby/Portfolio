@@ -566,14 +566,38 @@ h3 {
         display: block;
         margin-top: 20rem;
     }
+    .case-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .rollup {
-        float: left;
         width: 25rem;
+        height: auto;
     }
-    .cases-circle {
-        float: right;
+    .case-flex-content {
+        background-image: url('img/circle.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 60rem;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
-    .circle {
-        width: 58rem;
+    .case-flex-content p {
+        margin-left: 7rem;
+        margin-right: 9.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .case-flex-content h1 {
+        font-size: 2.5rem;
+        margin-top: 15rem;
+    }
+    .jive {
+        width: 50rem;
+        height: auto;
     }
 }
