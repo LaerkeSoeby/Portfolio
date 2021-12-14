@@ -262,72 +262,126 @@ h3 {
 }
 
 .circle-text h1 {
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .circle-text p {
-    font-size: .7rem;
+    font-size: .65rem;
 }
 
+.jive {
+    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.bb {
+    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.boligboss {
+    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+.flyer {
+    width: 18rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+}
+
+
+}
 @media screen and (min-width: 400px) {
     .circle-text h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
+    
     .circle-text p {
-        font-size: .85rem;
+        font-size: .8rem;
     }
 }
-
 
 /* site til mobil slut*/
 
-
 /*site til tablet starter*/
-
 @media screen and (min-width: 500px) {
     .circle-text h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
+    
     .circle-text p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
+    
     .green {
         width: 5rem;
         height: 5rem;
     }
 }
-
 @media screen and (min-width: 600px) {
     .skill-item {
         width: 50%;
     }
+    
     .rollup {
         width: 18rem;
     }
+    
+    .jive {
+        width: 25rem;
+        margin-top: 20rem;
+    }
+    
+    .bb {
+        width: 25rem;
+        margin-top: 20rem;
+    }
+    
+    .boligboss {
+        width: 25rem;
+        margin-top: 20rem;
+    }
+    
+    .flyer {
+        width: 25rem;
+        margin-top: 20rem;
+    }
 }
-
 @media screen and (min-width: 650px) {
     .circle-text h1 {
-        font-size: 2.1rem;
+        font-size: 1.8rem;
     }
+    
     .circle-text p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
+    
     .green {
         width: 6rem;
         height: 6rem;
     }
 }
 
-
 /*style til web starter*/
-
 @media screen and (min-width: 950px) {
     #logo {
         height: 3.5rem;
         margin: .5rem;
         margin-left: 7rem;
     }
+    
     .navbar {
         flex-direction: row;
         align-items: center;
@@ -335,6 +389,7 @@ h3 {
         margin-top: -30rem;
         z-index: 5;
     }
+    
     .navbar-links li a {
         text-decoration: none;
         color: #221414;
@@ -345,22 +400,26 @@ h3 {
         text-align: left;
         font-weight: normal;
     }
+    
     .navbar-links {
         display: flex;
         align-items: center;
         margin-left: 10rem;
         margin-right: 5rem;
     }
+    
     .navbar-links li {
         display: inline-block;
         justify-content: right;
     }
+    
     .navbar-links ul {
         width: auto;
         display: flex;
         flex-direction: row;
         margin-top: 0;
     }
+    
     li a {
         display: block;
         position: relative;
@@ -369,16 +428,20 @@ h3 {
         font-family: 'Nunito', sans-serif, Arial;
         z-index: 9;
     }
+    
     li i {
         margin: 0;
     }
+    
     li a:hover {
         color: #909E87;
     }
+    
     li a:active {
         color: #909E87;
     }
     /*navbar til web slut */
+    
     .nav-img {
         display: block;
         width: 40rem;
@@ -395,58 +458,71 @@ h3 {
         margin-top: -35rem;
         z-index: 6;
     }
+    
     .draw {
         display: none;
     }
+    
     .vandmærke {
         display: none;
     }
+    
     .web-heading {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
         justify-content: center;
     }
+    
     .webvandmærke {
         display: block;
         opacity: 100%;
         transform: none;
         height: 9rem;
     }
+    
     .heading {
         margin-top: 25rem;
         margin-top: 30rem;
     }
+    
     .heading h1 {
         font-size: 3.5rem;
         margin-left: -3rem;
     }
+    
     .heading h2 {
         font-size: 2.5rem;
         font-weight: normal;
         margin-left: 5rem;
     }
+    
     .quote {
         display: none;
     }
+    
     .web-quote {
         display: block;
         position: relative;
         text-align: center;
     }
+    
     .img-text {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    
     .img-text p {
         font-size: 2.8rem;
     }
+    
     .img-text h1 {
         font-size: 3.5rem;
         margin: 0;
     }
+    
     .img-quote {
         display: block;
         width: 100%;
@@ -454,53 +530,64 @@ h3 {
         margin-top: 13rem;
         opacity: 85%;
     }
+    
     .skill-mobile {
         display: none;
     }
+    
     .skill-header h1 {
         font-size: 3.5rem;
         margin-top: 12rem;
         margin-left: -3rem;
     }
+    
     .skill-header p {
         font-size: 2.8rem;
         text-align: center;
         margin-left: 5rem;
         margin-right: 5rem;
     }
+    
     .skill-web {
         display: block;
         margin-left: 8rem;
         margin-right: 8rem;
     }
+    
     .right {
         justify-content: start;
         align-items: flex-start;
         text-align: start;
     }
+    
     .skill-item {
         flex: 33.33%;
     }
+    
     .skill-text h4 {
         font-size: 1.9rem;
         margin-left: .5rem;
         margin-right: .5rem;
     }
+    
     .skill-text p {
         font-size: 1.6rem;
         margin-left: .5rem;
         margin-right: .5rem;
     }
+    
     .skill-web img {
         height: 9rem;
         width: 9rem;
         margin-left: 0;
     }
+    
     .cases-heading h1 {
         font-size: 3.5rem;
         text-align: center;
         margin-top: 15rem;
     }
+    
     .cases-heading p {
         font-size: 2.8rem;
         margin-top: 1rem;
