@@ -104,6 +104,10 @@ h3 {
     text-align: center;
 }
 
+.webvandmærke {
+    display: none;
+}
+
 .quote {
     position: absolute;
     margin: 0 auto;
@@ -265,12 +269,48 @@ h3 {
     /*navbar til web slut */
     .nav-img {
         display: block;
+        width: 45rem;
+        height: 45rem;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: cover;
+        /* Scales the image so it covers whole area, thus will likely crop */
+        object-position: center;
+        /* Centers the image within the element */
+        margin-top: -17rem;
     }
     .draw {
         display: none;
     }
     .vandmærke {
         display: none;
+    }
+    .web-heading {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .webvandmærke {
+        display: block;
+        opacity: 100%;
+        transform: none;
+        height: 9rem;
+    }
+    .heading {
+        margin-top: 25rem;
+    }
+    .heading h1 {
+        font-size: 3.5rem;
+        margin-left: -3rem;
+    }
+    .heading h2 {
+        font-size: 2.5rem;
+        font-weight: normal;
+        margin-left: 5rem;
     }
     .skill-mobile {
         display: none;
