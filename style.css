@@ -1,632 +1,926 @@
-/* navbar mobile begynder */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #FFF5E7;
-    font-family: 'Nunito', sans-serif;
-}
-
-#logo {
-    height: 3.5rem;
-    margin: .5rem;
-    margin-left: 3rem;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF5E7;
-    margin-left: 0;
-    margin-right: 0;
-    box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
-    height: 70px;
-    width: 100%;
-}
-
-.navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    max-width: 1760px;
-    z-index: 9;
-    background-color: #FFF5E7;
-    margin-top: -14px;
-}
-
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    text-decoration: none;
-    color: #221414;
-    padding: 1rem;
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 12px;
-    background-color: #FFF5E7;
-    text-align: left;
-}
-
-.navbar-links {
-    display: none;
-    width: 100%;
-    justify-content: flex-end;
-}
-
-.navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-}
-
-.navbar-links li {
-    text-align: center;
-}
-
-.navbar-links a {
-    padding: .5rem 1rem;
-}
-
-.navbar-links.active {
-    display: flex;
-}
-
-.nav-img {
-    display: none;
-}
-
-
-/*navbar mobile slut*/
-
-
-/* site til mobil starter*/
-
-.heading h1 {
-    font-size: 1.3rem;
-    text-align: center;
-    margin-top: 3rem;
-}
-
-h2 {
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.webvandmærke {
-    display: none;
-}
-
-.img-quote {
-    display: none;
-}
-
-.web-quote {
-    display: none;
-}
-
-.quote {
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    margin-top: 4rem;
-}
-
-.skill-web {
-    display: none;
-}
-
-.skill-container h4 {
-    font-size: 1rem;
-    text-align: center;
-}
-
-.skill-container p {
-    font-size: 0.9rem;
-}
-
-.skill-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
-
-.skill-item {
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-}
-
-.skill-text {
-    display: flex;
-    flex-direction: column;
-}
-
-.left {
-    justify-content: start;
-    align-items: flex-start;
-    text-align: start;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.skill-item img {
-    margin-left: 10px;
-}
-
-.right {
-    justify-content: end;
-    align-items: flex-end;
-    text-align: end;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.skill-header p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 0.9rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-}
-
-.skill-header h1 {
-    font-size: 1.3rem;
-    text-align: center;
-    margin-top: 2.5rem;
-}
-
-.draw {
-    width: 12rem;
-    height: 12rem;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 1rem;
-}
-
-.vandmærke {
-    opacity: 0.3;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 12rem;
-    height: 12rem;
-    transform: rotate(20deg);
-}
-
-.cases-heading h1 {
-    font-size: 1.3rem;
-    text-align: center;
-    margin-top: 8rem;
-}
-
-.cases-heading p {
-    font-size: 0.9rem;
-    margin-left: 2rem;
-    margin-right: 1.5rem;
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.rollup {
-    width: 10rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem;
-}
-
-.green-container {
-    width: 100%;
-}
-
-.green {
-    width: 4rem;
-    height: 4rem;
-    float: right;
-    margin-right: 10%;
-}
-
-.cases-circle {
-    display: block;
-    position: relative;
-    text-align: center;
-}
-
-.circle-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.circle {
-    border-radius: 50%;
-    background-color: #d99b62;
-    width: 100%;
-    opacity: 40%;
-    margin-top: 0;
-}
-
-.circle-text h1 {
-    font-size: .9rem;
-}
-
-.circle-text p {
-    font-size: .65rem;
-}
-
-.jive {
-    width: 18rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6rem;
-}
-
-.bb {
-    width: 18rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6rem;
-}
-
-.boligboss {
-    width: 18rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6rem;
-}
-
-.flyer {
-    width: 18rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6rem;
-    margin-bottom: 1.5rem;
-}
-
-.webcases {
-    display: none;
-}
-
-@media screen and (min-width: 400px) {
-    .circle-text h1 {
-        font-size: 1.2rem;
+    /* navbar mobile begynder */
+    
+    * {
+        margin: 0;
+        padding: 0;
     }
-    .circle-text p {
-        font-size: .8rem;
+    
+    body {
+        background-color: #FFF5E7;
+        font-family: 'Nunito', sans-serif;
     }
-}
-
-
-/* site til mobil slut*/
-
-
-/*site til tablet starter*/
-
-@media screen and (min-width: 500px) {
-    .circle-text h1 {
-        font-size: 1.6rem;
-    }
-    .circle-text p {
-        font-size: 1rem;
-    }
-    .green {
-        width: 5rem;
-        height: 5rem;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .skill-item {
-        width: 50%;
-    }
-    .rollup {
-        width: 18rem;
-    }
-    .jive {
-        width: 25rem;
-        margin-top: 20rem;
-    }
-    .bb {
-        width: 25rem;
-        margin-top: 20rem;
-    }
-    .boligboss {
-        width: 25rem;
-        margin-top: 20rem;
-    }
-    .flyer {
-        width: 25rem;
-        margin-top: 20rem;
-    }
-}
-
-@media screen and (min-width: 650px) {
-    .circle-text h1 {
-        font-size: 1.8rem;
-    }
-    .circle-text p {
-        font-size: 1.3rem;
-    }
-    .green {
-        width: 6rem;
-        height: 6rem;
-    }
-}
-
-
-/*style til web starter*/
-
-@media screen and (min-width: 950px) {
+    
     #logo {
         height: 3.5rem;
         margin: .5rem;
-        margin-left: 7rem;
+        margin-left: 3rem;
     }
+    
     .navbar {
-        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
-        position: fixed;
-        margin-top: -30rem;
-        z-index: 5;
+        background-color: #FFF5E7;
+        margin-left: 0;
+        margin-right: 0;
+        box-shadow: 0 6px 10px rgb(0 0 0 / 0.2);
+        height: 70px;
+        width: 100%;
     }
+    
+    .navbar-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        max-width: 1760px;
+        z-index: 9;
+        background-color: #FFF5E7;
+        margin-top: -14px;
+    }
+    
+    .navbar-links li {
+        list-style: none;
+    }
+    
     .navbar-links li a {
         text-decoration: none;
         color: #221414;
         padding: 1rem;
         display: block;
         font-family: 'Nunito', sans-serif;
-        font-size: 1.5rem;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #FFF5E7;
         text-align: left;
-        font-weight: normal;
     }
+    
     .navbar-links {
-        display: flex;
-        align-items: center;
-        margin-left: 10rem;
-        margin-right: 5rem;
+        display: none;
+        width: 100%;
+        justify-content: flex-end;
     }
-    .navbar-links li {
-        display: inline-block;
-        justify-content: right;
-    }
+    
     .navbar-links ul {
-        width: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .navbar-links li {
+        text-align: center;
+    }
+    
+    .navbar-links a {
+        padding: .5rem 1rem;
+    }
+    
+    .navbar-links.active {
         display: flex;
-        flex-direction: row;
-        margin-top: 0;
     }
-    li a {
-        display: block;
-        position: relative;
-        text-decoration: none;
-        font-size: 10px;
-        font-family: 'Nunito', sans-serif, Arial;
-        z-index: 9;
-    }
-    li i {
-        margin: 0;
-    }
-    li a:hover {
-        color: #909E87;
-    }
-    li a:active {
-        color: #909E87;
-    }
-    /*navbar til web slut */
+    
     .nav-img {
-        display: block;
-        width: 40rem;
-        height: 40rem;
+        display: none;
+    }
+    /*navbar mobile slut*/
+    /* site til mobil starter*/
+    
+    .heading h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    
+    h2 {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .webvandmærke {
+        display: none;
+    }
+    
+    .img-quote {
+        display: none;
+    }
+    
+    .web-quote {
+        display: none;
+    }
+    
+    .quote {
         position: absolute;
-        right: 0;
+        margin: 0 auto;
         left: 0;
-        margin-left: auto;
-        margin-right: auto;
-        object-fit: cover;
-        /* Scales the image so it covers whole area, thus will likely crop */
-        object-position: center;
-        /* Centers the image within the element */
-        margin-top: -35rem;
-        z-index: 6;
+        right: 0;
+        margin-top: 4rem;
     }
-    .draw {
+    
+    .skill-web {
         display: none;
     }
-    .vandmærke {
-        display: none;
+    
+    .skill-container h4 {
+        font-size: 1rem;
+        text-align: center;
     }
-    .web-heading {
+    
+    .skill-container p {
+        font-size: 0.9rem;
+    }
+    
+    .skill-container {
         display: flex;
         flex-wrap: wrap;
-        align-items: baseline;
-        justify-content: center;
+        margin-top: 1rem;
     }
-    .webvandmærke {
+    
+    .skill-item {
+        display: flex;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    
+    .skill-text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left {
+        justify-content: start;
+        align-items: flex-start;
+        text-align: start;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .skill-item img {
+        margin-left: 10px;
+    }
+    
+    .right {
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .skill-header p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 0.9rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .skill-header h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+    
+    .draw {
+        width: 12rem;
+        height: 12rem;
         display: block;
-        opacity: 100%;
-        transform: none;
-        height: 9rem;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
     }
-    .heading {
-        margin-top: 25rem;
-        margin-top: 30rem;
+    
+    .vandmærke {
+        opacity: 0.3;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 12rem;
+        height: 12rem;
+        transform: rotate(20deg);
     }
-    .heading h1 {
-        font-size: 3.5rem;
-        margin-left: -3rem;
+    
+    .cases-heading h1 {
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 8rem;
     }
-    .heading h2 {
-        font-size: 2.5rem;
-        font-weight: normal;
-        margin-left: 5rem;
+    
+    .cases-heading p {
+        font-size: 0.9rem;
+        margin-left: 2rem;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+        text-align: center;
     }
-    .quote {
-        display: none;
+    
+    .rollup {
+        width: 10rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
     }
-    .web-quote {
+    
+    .green-container {
+        width: 100%;
+    }
+    
+    .green {
+        width: 4rem;
+        height: 4rem;
+        float: right;
+        margin-right: 6%;
+    }
+    
+    .cases-circle {
         display: block;
         position: relative;
         text-align: center;
     }
-    .img-text {
+    
+    .circle-text {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .img-text p {
-        font-size: 2.8rem;
-    }
-    .img-text h1 {
-        font-size: 3.5rem;
-        margin: 0;
-    }
-    .img-quote {
-        display: block;
+    
+    .circle {
+        border-radius: 50%;
+        background-color: #d99b62;
         width: 100%;
-        height: 42rem;
-        margin-top: 13rem;
-        opacity: 85%;
+        opacity: 40%;
+        margin-top: 0;
     }
-    .skill-mobile {
-        display: none;
+    
+    .circle-text h1 {
+        font-size: .9rem;
     }
-    .skill-header h1 {
-        font-size: 3.5rem;
-        margin-top: 12rem;
-        margin-left: -3rem;
+    
+    .circle-text p {
+        font-size: .65rem;
     }
-    .skill-header p {
-        font-size: 2.8rem;
-        text-align: center;
-        margin-left: 5rem;
-        margin-right: 5rem;
-    }
-    .skill-web {
-        display: block;
-        margin-left: 8rem;
-        margin-right: 8rem;
-    }
-    .right {
-        justify-content: start;
-        align-items: flex-start;
-        text-align: start;
-    }
-    .skill-item {
-        flex: 33.33%;
-    }
-    .skill-text h4 {
-        font-size: 1.9rem;
-        margin-left: .5rem;
-        margin-right: .5rem;
-    }
-    .skill-text p {
-        font-size: 1.6rem;
-        margin-left: .5rem;
-        margin-right: .5rem;
-    }
-    .skill-web img {
-        height: 9rem;
-        width: 9rem;
-        margin-left: 0;
-    }
-    .cases-heading h1 {
-        font-size: 3.5rem;
-        text-align: center;
-        margin-top: 25rem;
-        margin-left: -3rem;
-    }
-    .cases-heading p {
-        font-size: 2.8rem;
-        margin-top: 1rem;
-        text-align: center;
-    }
-    .cases {
-        display: none;
-    }
-    .webcases {
-        display: block;
-        margin-top: 20rem;
-    }
-    .case-flex {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .rollup {
-        width: 25rem;
-        height: auto;
-        margin-right: 0;
-    }
-    .case-flex-content {
-        background-image: url('img/circle.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 60rem;
-        height: 60rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        margin-right: 0;
-    }
-    .case-flex-content p {
-        margin-left: 7rem;
-        margin-right: 9.5rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .case-flex-content h1 {
-        font-size: 2.5rem;
-        margin-top: 15rem;
-    }
+    
     .jive {
-        width: 40rem;
-        height: auto;
-        margin-top: 0;
+        width: 18rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
     }
+    
     .bb {
-        width: 40rem;
-        height: auto;
-        margin-top: 0;
-        margin-right: 0;
+        width: 18rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
     }
+    
     .boligboss {
-        width: 40rem;
-        height: auto;
-        margin-top: 0;
-        margin-left: 0;
+        width: 18rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
     }
+    
     .flyer {
-        width: 30rem;
-        height: auto;
-        margin-top: 0;
-        margin-right: 0;
+        width: 18rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 6rem;
+        margin-bottom: 1.5rem;
     }
-    .green {
-        margin-bottom: 45rem;
+    
+    .webcases {
+        display: none;
     }
-    .two {
-        margin-left: 6%;
-        margin-right: 0;
+    
+    @media screen and (min-width: 400px) {
+        .circle-text h1 {
+            font-size: 1.2rem;
+        }
+        .circle-text p {
+            font-size: .8rem;
+        }
     }
-}
+    /* site til mobil slut*/
+    /*site til tablet starter*/
+    
+    @media screen and (min-width: 500px) {
+        .circle-text h1 {
+            font-size: 1.6rem;
+        }
+        .circle-text p {
+            font-size: 1rem;
+        }
+        .green {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+    
+    @media screen and (min-width: 600px) {
+        .skill-item {
+            width: 50%;
+        }
+        .rollup {
+            width: 18rem;
+        }
+        .jive {
+            width: 25rem;
+            margin-top: 20rem;
+        }
+        .bb {
+            width: 25rem;
+            margin-top: 20rem;
+        }
+        .boligboss {
+            width: 25rem;
+            margin-top: 20rem;
+        }
+        .flyer {
+            width: 25rem;
+            margin-top: 20rem;
+        }
+    }
+    
+    @media screen and (min-width: 650px) {
+        .circle-text h1 {
+            font-size: 1.8rem;
+        }
+        .circle-text p {
+            font-size: 1.3rem;
+        }
+        .green {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+    /*style til web starter*/
+    
+    @media screen and (min-width: 950px) {
+        #logo {
+            height: 3.5rem;
+            margin: .5rem;
+            margin-left: 7rem;
+        }
+        .navbar {
+            flex-direction: row;
+            align-items: center;
+            position: fixed;
+            margin-top: -30rem;
+            z-index: 5;
+        }
+        .navbar-links li a {
+            text-decoration: none;
+            color: #221414;
+            padding: 1rem;
+            display: block;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.5rem;
+            text-align: left;
+            font-weight: normal;
+        }
+        .navbar-links {
+            display: flex;
+            align-items: center;
+            margin-left: 10rem;
+            margin-right: 5rem;
+        }
+        .navbar-links li {
+            display: inline-block;
+            justify-content: right;
+        }
+        .navbar-links ul {
+            width: auto;
+            display: flex;
+            flex-direction: row;
+            margin-top: 0;
+        }
+        li a {
+            display: block;
+            position: relative;
+            text-decoration: none;
+            font-size: 10px;
+            font-family: 'Nunito', sans-serif, Arial;
+            z-index: 9;
+        }
+        li i {
+            margin: 0;
+        }
+        li a:hover {
+            color: #909E87;
+        }
+        li a:active {
+            color: #909E87;
+        }
+        /*navbar til web slut */
+        /*site til web start */
+        .nav-img {
+            display: block;
+            width: 22rem;
+            height: 22rem;
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: cover;
+            /* Scales the image so it covers whole area, thus will likely crop */
+            object-position: center;
+            /* Centers the image within the element */
+            margin-top: -35rem;
+            z-index: 6;
+        }
+        .draw {
+            display: none;
+        }
+        .vandmærke {
+            display: none;
+        }
+        .web-heading {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+        }
+        .webvandmærke {
+            display: block;
+            opacity: 100%;
+            transform: none;
+            height: 5em;
+        }
+        .heading {
+            margin-top: 25rem;
+            margin-top: 30rem;
+        }
+        .heading h1 {
+            font-size: 2.5rem;
+            margin-left: -3rem;
+        }
+        .heading h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin-left: 5rem;
+        }
+        .quote {
+            display: none;
+        }
+        .web-quote {
+            display: block;
+            position: relative;
+            text-align: center;
+        }
+        .img-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .img-text p {
+            font-size: 2rem;
+        }
+        .img-text h1 {
+            font-size: 2.6rem;
+            margin: 0;
+        }
+        .img-quote {
+            display: block;
+            width: 100%;
+            height: 35rem;
+            margin-top: 13rem;
+            opacity: 85%;
+        }
+        .skill-mobile {
+            display: none;
+        }
+        .skill-header h1 {
+            font-size: 2.2rem;
+            margin-top: 12rem;
+            margin-left: -3rem;
+        }
+        .skill-header p {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-left: 5rem;
+            margin-right: 5rem;
+        }
+        .skill-web {
+            display: block;
+            margin-left: 8rem;
+            margin-right: 8rem;
+        }
+        .right {
+            justify-content: start;
+            align-items: flex-start;
+            text-align: start;
+        }
+        .skill-item {
+            flex: 33.33%;
+        }
+        .skill-text h4 {
+            font-size: 1.2rem;
+            margin-left: .5rem;
+            margin-right: .5rem;
+        }
+        .skill-text p {
+            font-size: .9rem;
+            margin-left: .5rem;
+            margin-right: .5rem;
+        }
+        .skill-web img {
+            height: 7rem;
+            width: 7rem;
+            margin-left: 0;
+        }
+        .cases-heading h1 {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-top: 15rem;
+            margin-left: -3rem;
+        }
+        .cases-heading p {
+            font-size: .6rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .cases {
+            display: none;
+        }
+        .webcases {
+            display: block;
+            margin-top: 10rem;
+        }
+        .case-flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .rollup {
+            width: 10rem;
+            height: auto;
+            margin-right: 0;
+            margin-top: 0;
+        }
+        .case-flex-content {
+            background-image: url('img/circle.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 42rem;
+            height: 42rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin-right: 0;
+        }
+        .case-flex-content p {
+            margin-left: 7rem;
+            margin-right: 9.5rem;
+            font-size: .6rem;
+            text-align: center;
+            line-height: 35px;
+        }
+        .case-flex-content h1 {
+            font-size: 1rem;
+            margin-top: 5rem;
+        }
+        .jive {
+            width: 16rem;
+            height: auto;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .bb {
+            width: 12rem;
+            height: auto;
+            margin-top: 0;
+            margin-right: 0;
+        }
+        .boligboss {
+            width: 18rem;
+            height: auto;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .flyer {
+            width: 10rem;
+            height: auto;
+            margin-top: 0;
+            margin-right: 0;
+        }
+        .green {
+            margin-bottom: 35rem;
+        }
+        .two {
+            margin-left: 6%;
+            margin-right: 0;
+        }
+        .cases-heading h1 {
+            font-size: 1.8rem;
+            margin-top: 25rem;
+        }
+        .cases-heading p {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media screen and (min-width: 1005px) {
+        .case-flex-content {
+            width: 45rem;
+            height: 45rem;
+        }
+        .case-flex-content h1 {
+            margin-top: 8rem;
+        }
+        .jive {
+            width: 18rem;
+        }
+    }
+    
+    @media screen and (min-width: 1124px) {
+        .nav-img {
+            width: 28rem;
+            height: 28rem;
+        }
+        .heading h1 {
+            font-size: 3rem;
+        }
+        .heading h2 {
+            font-size: 2rem;
+        }
+        .img-quote {
+            height: 42rem;
+        }
+        .img-text p {
+            font-size: 2.8rem;
+        }
+        .img-text h1 {
+            font-size: 3.5rem;
+        }
+        .skill-header h1 {
+            font-size: 2.8rem;
+        }
+        .skill-header p {
+            font-size: 2rem;
+        }
+        .skill-text h4 {
+            font-size: 1.6rem;
+        }
+        .skill-text p {
+            font-size: 1.3rem;
+        }
+        .skill-web img {
+            height: 9rem;
+            width: 9rem;
+        }
+        .cases-heading h1 {
+            font-size: 1.8rem;
+        }
+        .cases-heading p {
+            font-size: 1rem;
+        }
+        .green {
+            margin-right: 8%;
+        }
+        .case-flex-content {
+            width: 48rem;
+            height: 48rem;
+        }
+        .case-flex-content p {
+            font-size: .7rem;
+        }
+        .case-flex-content h1 {
+            font-size: 1.1rem;
+            margin-top: 10rem;
+        }
+        .rollup {
+            width: 12rem;
+        }
+        .jive {
+            width: 20rem;
+        }
+        .bb {
+            width: 14rem;
+        }
+        .boligboss {
+            width: 20rem;
+        }
+        .flyer {
+            width: 12rem;
+        }
+    }
+    
+    @media screen and (min-width: 1237px) {
+        .heading h1 {
+            font-size: 3.5rem;
+        }
+        .heading h2 {
+            font-size: 2.5rem;
+        }
+        .nav-img {
+            width: 35rem;
+            height: 35rem;
+        }
+        .webvandmærke {
+            height: 7.5rem;
+        }
+        .skill-header h1 {
+            font-size: 3rem;
+        }
+        .skill-header p {
+            font-size: 2.3rem;
+        }
+        .case-flex-content {
+            width: 52rem;
+            height: 52rem;
+        }
+        .case-flex-content p {
+            font-size: 1rem;
+        }
+        .case-flex-content h1 {
+            font-size: 1.8rem;
+            margin-top: 10rem;
+        }
+        .jive {
+            width: 20rem;
+        }
+        .bb {
+            width: 16rem;
+        }
+        .boligboss {
+            width: 22rem;
+        }
+    }
+    
+    @media screen and (min-width: 1340px) {
+        .case-flex-content {
+            width: 55rem;
+            height: 55rem;
+        }
+        .case-flex-content p {
+            font-size: 1.2rem;
+        }
+        .case-flex-content h1 {
+            font-size: 2.2rem;
+            margin-top: 10rem;
+        }
+        .jive {
+            width: 22rem;
+        }
+        .rollup {
+            width: 16rem;
+        }
+        .bb {
+            width: 20rem;
+        }
+        .boligboss {
+            width: 26rem;
+        }
+        .flyer {
+            width: 16rem;
+        }
+    }
+    
+    @media screen and (min-width: 1440px) {
+        .skill-text h4 {
+            font-size: 1.9rem;
+        }
+        .skill-text p {
+            font-size: 1.6rem;
+        }
+        .green {
+            margin-right: 10%;
+        }
+        .rollup {
+            width: 18rem;
+        }
+        .jive {
+            width: 25rem;
+        }
+        .bb {
+            width: 22rem;
+        }
+        .boligboss {
+            width: 28rem;
+        }
+        .flyer {
+            width: 20rem;
+        }
+    }
+    
+    @media screen and (min-width: 1540px) {
+        .skill-header h1 {
+            font-size: 3.5rem;
+        }
+        .skill-header p {
+            font-size: 2.8rem;
+        }
+        .cases-heading h1 {
+            font-size: 2.7rem;
+        }
+        .cases-heading p {
+            font-size: 2rem;
+        }
+        .case-flex-content h1 {
+            font-size: 2.2rem;
+            margin-top: 10rem;
+        }
+        .rollup {
+            width: 20rem;
+        }
+        .jive {
+            width: 30rem;
+        }
+        .bb {
+            width: 25rem;
+        }
+        .boligboss {
+            width: 32rem;
+        }
+        .flyer {
+            width: 22rem;
+        }
+    }
+    
+    @media screen and (min-width: 1600px) {
+        .cases-heading h1 {
+            font-size: 2.9rem;
+        }
+        .cases-heading p {
+            font-size: 2.2rem;
+        }
+        .rollup {
+            width: 25rem;
+        }
+        .case-flex-content {
+            width: 60rem;
+            height: 60rem;
+        }
+        .case-flex-content p {
+            font-size: 1.5rem;
+            line-height: 38px;
+        }
+        .case-flex-content h1 {
+            font-size: 2.5rem;
+            margin-top: 10rem;
+        }
+        .jive {
+            width: 30rem;
+        }
+        .bb {
+            width: 30rem;
+        }
+        .boligboss {
+            width: 40rem;
+        }
+        .flyer {
+            width: 25rem;
+        }
+    }
+    
+    @media screen and (min-width: 1700px) {
+        .nav-img {
+            width: 40rem;
+            height: 40rem;
+        }
+        .case-flex-content h1 {
+            margin-top: 10rem;
+        }
+        .flyer {
+            width: 29rem;
+        }
+        .jive {
+            width: 35rem;
+        }
+    }
+    
+    @media screen and (min-width: 1810px) {
+        .bb {
+            width: 40rem;
+        }
+        .webvandmærke {
+            height: 9rem;
+        }
+        .cases-heading h1 {
+            font-size: 3.5rem;
+            text-align: center;
+            margin-top: 25rem;
+            margin-left: -3rem;
+        }
+        .cases-heading p {
+            font-size: 2.8rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .case-flex-content p {
+            line-height: 42px;
+        }
+    }
