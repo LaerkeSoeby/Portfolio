@@ -259,6 +259,7 @@
     
     .circle-text h1 {
         font-size: .9rem;
+        margin-top: 2.5rem;
     }
     
     .circle-text p {
@@ -300,6 +301,37 @@
     
     .webcases {
         display: none;
+    }
+    
+    .about-heading {
+        text-align: center;
+        margin-top: 8rem;
+    }
+    
+    .about-header p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .me {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1rem;
+    }
+    
+    .about p {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1rem;
+    }
+    
+    .about h1 {
+        margin-top: 4rem;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     
     @media screen and (min-width: 400px) {
@@ -798,6 +830,9 @@
         }
         .green {
             margin-right: 10%;
+        }
+        .two {
+            margin-right: 0;
         }
         .rollup {
             width: 18rem;
