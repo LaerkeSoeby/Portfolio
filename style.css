@@ -343,6 +343,30 @@
         }
     }
     /* site til mobil slut*/
+    /* footer start*/
+    
+    footer {
+        width: 100%;
+        height: 7rem;
+        margin-top: 9rem;
+    }
+    
+    .footer-container {
+        border-top: .2rem solid #909E87;
+        padding: 5%;
+        display: flex;
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+    
+    .footer-container p {
+        font-size: .8rem;
+    }
+    
+    .footer-img {
+        display: none;
+    }
+    /* footer slut*/
     /*site til tablet starter*/
     
     @media screen and (min-width: 500px) {
@@ -662,6 +686,59 @@
         .cases-heading p {
             font-size: 1.5rem;
         }
+        .about-heading {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            justify-content: center;
+        }
+        .about-header {
+            margin-left: -3rem;
+            font-size: 1.8rem;
+        }
+        .about-header p {
+            margin-top: 1rem;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .about-heading h1 {
+            font-size: 1.5rem;
+            margin-left: -3rem;
+        }
+        .about-heading p {
+            margin-top: 1rem;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .me {
+            width: 40%;
+            height: auto;
+        }
+        .me-container {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .values-container {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .footer-container {
+            padding: 1%;
+        }
+        .footer-img {
+            display: block;
+            width: 28%;
+            height: auto;
+            margin-left: 50%;
+        }
     }
     
     @media screen and (min-width: 1005px) {
@@ -674,6 +751,16 @@
         }
         .jive {
             width: 18rem;
+        }
+        .about-heading h1 {
+            font-size: 1.8rem;
+            margin-left: -3rem;
+        }
+        .about-heading p {
+            margin-top: 1.2rem;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
         }
     }
     
@@ -819,6 +906,12 @@
         .flyer {
             width: 16rem;
         }
+        .footer-container p {
+            font-size: 1rem;
+        }
+        .footer-container {
+            padding: 2%;
+        }
     }
     
     @media screen and (min-width: 1440px) {
@@ -882,6 +975,26 @@
         }
         .flyer {
             width: 22rem;
+        }
+        .about-heading h1 {
+            font-size: 2.2rem;
+            margin-left: -3rem;
+        }
+        .about-heading p {
+            margin-top: 1.8rem;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 1.8rem;
+        }
+        .me-container p {
+            font-size: 1.5rem;
+        }
+        .value-item h1 {
+            font-size: 2rem;
+        }
+        .value-item p {
+            font-size: 1.7rem;
         }
     }
     
@@ -957,5 +1070,27 @@
         }
         .case-flex-content p {
             line-height: 42px;
+        }
+        .about-heading h1 {
+            font-size: 2.5rem;
+            margin-left: -3rem;
+        }
+        .about-heading p {
+            margin-top: 2.2rem;
+            text-align: center;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .me-container p {
+            font-size: 2rem;
+        }
+        .footer-container p {
+            font-size: 1.5rem;
+        }
+    }
+    
+    @media screen and (min-width: 2020px) {
+        .about-heading p {
+            font-size: 2.6rem;
         }
     }
