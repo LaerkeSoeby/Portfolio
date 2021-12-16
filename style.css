@@ -87,17 +87,27 @@
         font-size: 1.3rem;
         text-align: center;
         margin-top: 3rem;
+        color: #221414;
     }
     
     h2 {
         font-size: 1rem;
         text-align: center;
         margin-top: 1rem;
+        color: #221414;
+    }
+    
+    .heading p {
+        font-size: .8rem;
+        text-align: center;
+        color: #d99b62;
+        margin-top: 1rem;
     }
     
     h3 {
         font-size: 1.2rem;
         text-align: center;
+        color: #221414;
     }
     
     .webvandmærke {
@@ -127,10 +137,12 @@
     .skill-container h4 {
         font-size: 1rem;
         text-align: center;
+        color: #221414;
     }
     
     .skill-container p {
         font-size: 0.9rem;
+        color: #221414;
     }
     
     .skill-container {
@@ -176,12 +188,14 @@
         margin-right: 2rem;
         margin-left: 2rem;
         margin-top: 1rem;
+        color: #221414;
     }
     
     .skill-header h1 {
         font-size: 1.3rem;
         text-align: center;
         margin-top: 2.5rem;
+        color: #221414;
     }
     
     .draw {
@@ -191,6 +205,7 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     
     .vandmærke {
@@ -207,6 +222,7 @@
         font-size: 1.3rem;
         text-align: center;
         margin-top: 8rem;
+        color: #221414;
     }
     
     .cases-heading p {
@@ -215,6 +231,7 @@
         margin-right: 1.5rem;
         margin-top: 1rem;
         text-align: center;
+        color: #221414;
     }
     
     .rollup {
@@ -260,10 +277,12 @@
     .circle-text h1 {
         font-size: .9rem;
         margin-top: 2.5rem;
+        color: #221414;
     }
     
     .circle-text p {
         font-size: .65rem;
+        color: #221414;
     }
     
     .jive {
@@ -306,11 +325,13 @@
     .about-heading {
         text-align: center;
         margin-top: 8rem;
+        color: #221414;
     }
     
     .about-header p {
         margin-top: 1rem;
         text-align: center;
+        color: #221414;
     }
     
     .me {
@@ -326,12 +347,14 @@
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 1rem;
+        color: #221414;
     }
     
     .about h1 {
         margin-top: 4rem;
         margin-left: 5%;
         margin-right: 5%;
+        color: #221414;
     }
     
     @media screen and (min-width: 400px) {
@@ -361,6 +384,7 @@
     
     .footer-container p {
         font-size: .8rem;
+        color: #221414;
     }
     
     .footer-img {
@@ -431,7 +455,7 @@
             flex-direction: row;
             align-items: center;
             position: fixed;
-            margin-top: -30rem;
+            top: 0;
             z-index: 5;
         }
         .navbar-links li a {
@@ -481,8 +505,8 @@
         /*site til web start */
         .nav-img {
             display: block;
-            width: 22rem;
-            height: 22rem;
+            width: 15rem;
+            height: 15rem;
             position: absolute;
             right: 0;
             left: 0;
@@ -492,7 +516,7 @@
             /* Scales the image so it covers whole area, thus will likely crop */
             object-position: center;
             /* Centers the image within the element */
-            margin-top: -35rem;
+            top: -1rem;
             z-index: 6;
         }
         .draw {
@@ -514,17 +538,22 @@
             height: 5em;
         }
         .heading {
-            margin-top: 25rem;
-            margin-top: 30rem;
+            margin-top: 15rem;
         }
         .heading h1 {
-            font-size: 2.5rem;
+            font-size: 2rem;
             margin-left: -3rem;
         }
         .heading h2 {
-            font-size: 1.5rem;
+            font-size: 1rem;
             font-weight: normal;
-            margin-left: 5rem;
+        }
+        .heading p {
+            font-size: 1.2rem;
+            text-align: center;
+            color: #d99b62;
+            margin-top: 3rem;
+            font-weight: 300;
         }
         .quote {
             display: none;
@@ -542,6 +571,8 @@
         }
         .img-text p {
             font-size: 2rem;
+            color: #221414;
+            margin-top: 2rem;
         }
         .img-text h1 {
             font-size: 2.6rem;
@@ -550,20 +581,20 @@
         .img-quote {
             display: block;
             width: 100%;
-            height: 35rem;
-            margin-top: 13rem;
+            height: auto;
+            margin-top: 5rem;
             opacity: 85%;
         }
         .skill-mobile {
             display: none;
         }
         .skill-header h1 {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-top: 12rem;
             margin-left: -3rem;
         }
         .skill-header p {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             text-align: center;
             margin-left: 5rem;
             margin-right: 5rem;
@@ -585,6 +616,7 @@
             font-size: 1.2rem;
             margin-left: .5rem;
             margin-right: .5rem;
+            text-align: left;
         }
         .skill-text p {
             font-size: .9rem;
@@ -766,29 +798,31 @@
     
     @media screen and (min-width: 1124px) {
         .nav-img {
-            width: 28rem;
-            height: 28rem;
+            width: 22rem;
+            height: 22rem;
+            top: -3rem;
         }
         .heading h1 {
             font-size: 3rem;
+            margin-top: 5rem;
         }
         .heading h2 {
             font-size: 2rem;
         }
-        .img-quote {
-            height: 42rem;
+        .heading p {
+            font-size: 1.5rem;
         }
         .img-text p {
-            font-size: 2.8rem;
+            font-size: 2rem;
         }
         .img-text h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
         .skill-header h1 {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
         }
         .skill-header p {
-            font-size: 2rem;
+            font-size: 1.7rem;
         }
         .skill-text h4 {
             font-size: 1.6rem;
@@ -797,8 +831,8 @@
             font-size: 1.3rem;
         }
         .skill-web img {
-            height: 9rem;
-            width: 9rem;
+            height: 7rem;
+            width: 7rem;
         }
         .cases-heading h1 {
             font-size: 1.8rem;
@@ -839,23 +873,29 @@
     
     @media screen and (min-width: 1237px) {
         .heading h1 {
-            font-size: 3.5rem;
+            font-size: 3.2rem;
+            margin-top: 8rem;
         }
         .heading h2 {
-            font-size: 2.5rem;
+            font-size: 2rem;
+        }
+        .heading p {
+            font-size: 2.1rem;
+            margin-left: 5%;
+            margin-right: 5%;
         }
         .nav-img {
-            width: 35rem;
-            height: 35rem;
+            width: 25rem;
+            height: 25rem;
         }
         .webvandmærke {
             height: 7.5rem;
         }
         .skill-header h1 {
-            font-size: 3rem;
+            font-size: 2.8rem;
         }
         .skill-header p {
-            font-size: 2.3rem;
+            font-size: 1.9rem;
         }
         .case-flex-content {
             width: 52rem;
@@ -946,10 +986,10 @@
     
     @media screen and (min-width: 1540px) {
         .skill-header h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
         .skill-header p {
-            font-size: 2.8rem;
+            font-size: 2.3rem;
         }
         .cases-heading h1 {
             font-size: 2.7rem;
@@ -1036,8 +1076,11 @@
     
     @media screen and (min-width: 1700px) {
         .nav-img {
-            width: 40rem;
-            height: 40rem;
+            width: 30rem;
+            height: 30rem;
+        }
+        .heading h1 {
+            margin-top: 15rem;
         }
         .case-flex-content h1 {
             margin-top: 10rem;
